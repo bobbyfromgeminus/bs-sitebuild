@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+section {
+    min-height: 100vh;
+}
+
+.gradient-bg {
+    background: rgb(219,36,49);
+    background-image: url('../images/bg-pattern.png');
+    background-image: url('../images/bg-pattern.png'), linear-gradient(90deg, rgba(219,36,49,1) 0%, rgba(123,67,151,1) 100%);
+    background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6, .nav-link {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.brand-top {
+    font-size: 1.3rem;
+    color: #fdc63e;
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.bg-light .brand-top {
+    color: rgb(60, 60, 60, 1) !important;
+}
+
+
+.menu-color {
+    color: rgba(255, 255, 255, .7) !important;
+    letter-spacing: .1rem;
+}
+
+.menu-color:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.bg-light .menu-color {
+    color: rgb(60, 60, 60, .8) !important;
+    letter-spacing: .1rem;
+}
+
+.bg-light .menu-color:hover {
+    color: rgb(60, 60, 60, 1) !important;
+}
+
+.active {
+    color: rgba(255, 255, 255, 1) !important;
+    font-weight: 400;
+}
+
+.bg-light .active {
+    color: #fdc63e !important;
+    font-weight: 400;
+}
+
+.font-size-2 {
+    font-size: 3rem !important;
+    line-height: 3.7rem;
+}
+
+.start-button {
+    transition: background-color .3s;
+    font-size: .7rem;
+    letter-spacing: .2rem;
+}
+
+.start-button:hover {
+    background-color: #fdcc52;
+}
+
+
+
+.border {
+    border: 1px dotted black;
+}
