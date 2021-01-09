@@ -1,9 +1,10 @@
 # Bootstrap 4 sitebuilding project
 Git-et használjatok, a repo neve: **bs-sitebuild**
 
-A letölthető fileok a leírás végén találhatóak! A desktop pdf fájl fel van címkézve a feladatok szövegével!
+**A letölthető fileok a leírás végén találhatóak!**
+**A desktop pdf fájl fel van címkézve a feladatok szövegével!**
 
-Készítsd el a desktop.jpeg/mobile.jpeg képen látható responsive honlapot bootstrap 4 segítségével!
+**Készítsd el a ***desktop.jpeg*** / ***mobile.jpeg*** képen látható responsive honlapot bootstrap 4 segítségével!**
 
 Összesen 2 nézetünk van. Medium breakpoint (992px) felett a desktop, alatta a mobil view érvényesüljön! A designhoz használt képeket megtalálod az img mappában. Használj egyéni betűtípusokat – Google fontsról le kell tölteni, és css-ben egyéni betűtípusokat kell létrehozni az alábbiak szerint:
 
