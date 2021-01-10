@@ -15,3 +15,18 @@ if (startchange.length) {
         }
     });
 }
+
+// Smooth site scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// tooltip
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
